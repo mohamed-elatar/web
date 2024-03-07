@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <title>E-commerce</title>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="logo.jpg" alt="Logo" class="logo-img">
+        </div>
+        <nav class="navbar">
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Our Products</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Our branches</a></li>
+            </ul>
+            <div id="hamburger-menu" class="hamburger-menu">
+                <button class="hamburger-button">☰</button>
+                <div class="nav-links">
+                    <a href="#">Home</a>
+                    <a href="#">Services</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Our branches</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Product Showcase -->
+    <section class="product-showcase">
+        <div class="slider">
+            <div class="wrapper">
+                <div class="image-wrapper">
+                    <img src="product1.jpg" alt="Product 1">
+                </div>
+                <div class="header-wrapper">
+                    <h1>Product 1</h1>
+                    <span class="price">$550</span>
+                    <h1>See Project</h1>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="image-wrapper">
+                    <img src="product2.jpg" alt="Product 1">
+                </div>
+                <div class="header-wrapper">
+                    <h1>Product 2</h1>
+                    <span class="price">$220</span>
+                    <h1>See Project</h1>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="image-wrapper">
+                    <img src="product3.jpg" alt="Product 1">
+                </div>
+                <div class="header-wrapper">
+                    <h1>Product 3</h1>
+                    <span class="price">$20</span>
+                    <h1>See Project</h1>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="image-wrapper">
+                    <img src="product4.jpg" alt="Product 1">
+                </div>
+                <div class="header-wrapper">
+                    <h1>Product 4</h1>
+                    <span class="price">$100</span>
+                    <h1>See Project</h1>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="image-wrapper">
+                    <img src="product5.jpg" alt="Product 1">
+                </div>
+                <div class="header-wrapper">
+                    <h1>Product 5</h1>
+                    <span class="price">$12</span>
+                    <h1>See Project</h1>
+                </div>
+            </div>
+            <!-- Add more product wrappers -->
+        </div>
+    </section>
+
+    <!-- Search Section -->
+    <section class="search">
+        <h2>Search about your product</h2>
+        <input id="searchInput" type="text" onkeyup="searchProducts()" placeholder="Search">
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-links">
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+        <div class="social-icons">
+            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
